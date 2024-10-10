@@ -24,5 +24,12 @@ public class Item {
         return nome;
     }
 
-
+    @Override
+    public String toString() {
+        return "Item{" +
+                    "nome='" + nome + '\'' +
+                    ", quantidade=" + quantidade +
+                    ", preco=" + preco +
+                    '}';
+    }
 }

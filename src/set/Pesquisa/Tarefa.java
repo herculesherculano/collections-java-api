@@ -7,9 +7,9 @@ public class Tarefa {
     private String descricao;
     private boolean tarefaConcluida;
 
-    public Tarefa(String descricao, boolean tarefaConcluida) {
+    public Tarefa(String descricao) {
         this.descricao = descricao;
-        this.tarefaConcluida = tarefaConcluida;
+
     }
 
     public String getDescricao() {
